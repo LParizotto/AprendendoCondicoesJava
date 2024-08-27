@@ -7,4 +7,23 @@ public class ExemploCondicao2 {
     //Valor Maior que 3000 - 30%
     //Valor Menor igual a 1000 - 0%
 
+    public static void main(String[] args) {
+
+        double valorBruto = 1500;
+
+        if(valorBruto > 1000) {
+            double desconto = valorBruto * 0.10;
+        }
+
+        if(valorBruto > 2000) {
+            double desconto = valorBruto * (20/100);
+        }
+
+        if(valorBruto >= 3000) {
+            double desconto = valorBruto * (30/100);
+        }
+
+    }
+
+
 }
