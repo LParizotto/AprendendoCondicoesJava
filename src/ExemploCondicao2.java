@@ -15,11 +15,11 @@ public class ExemploCondicao2 {
             double desconto = valorBruto * 0.10;
         }
 
-        if(valorBruto > 2000) {
+        else if(valorBruto > 2000) {
             double desconto = valorBruto * (20/100);
         }
 
-        if(valorBruto >= 3000) {
+        else if(valorBruto >= 3000) {
             double desconto = valorBruto * (30/100);
         }
 
